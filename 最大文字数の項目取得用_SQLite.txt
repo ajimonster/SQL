@@ -1,0 +1,9 @@
+#1# : 長さを知りたいフィールド
+#2# : テーブル名
+#3# : 取得したいフィールド
+
+SELECT MAX (LENGTH(#1#)) FROM #2#;
+
+出力 = X
+
+SELECT #3# FROM #2# WHERE LENGTH(#1#)=X;
